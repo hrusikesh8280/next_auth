@@ -1,0 +1,53 @@
+/* components/Signup.module.css */
+.signupContainer {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formGroup {
+    margin-bottom: 10px;
+  }
+  
+  .signupContainer label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .signupContainer input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .signupContainer button {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .signupContainer button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+
+  .success {
+    color: green;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: #dff0d8; 
+    border: 1px solid #c3e6cb; 
+    padding: 10px;
+    border-radius: 5px;
+  }

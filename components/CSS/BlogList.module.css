@@ -1,0 +1,36 @@
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .container  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .container  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .container .item {
+    margin-bottom: 10px;
+  }
+  
+  .container .link {
+    display: block;
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .container  .link:hover {
+    text-decoration: underline;
+  }
+  
